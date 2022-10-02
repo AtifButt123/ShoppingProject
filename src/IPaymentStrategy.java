@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface IPaymentStrategy {
+public interface IPaymentStrategy {
+    void executePayment(int amount);
 }
